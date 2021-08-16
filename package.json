@@ -1,0 +1,32 @@
+{
+  "name": "book-bestsellers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec npm run babel-node --  ./bin/www",
+    "babel-node": "babel-node"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "bull": "^3.28.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "formik": "^2.2.9",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
+    "morgan": "~1.9.1",
+    "react-bootstrap": "^1.6.1",
+    "react-router-dom": "^5.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "yup": "^0.32.9"
+  }
+}
